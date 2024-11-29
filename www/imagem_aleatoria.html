@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Aleatória</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Imagem Aleatória da Unsplash</h1>
+    <div id="containerImagem">
+        <p><strong>Descrição:</strong> <span id="descricao"></span></p>
+        <img id="imagemAleatoria" src="" alt="Imagem aleatória">
+        <p><strong>Visualizações:</strong> <span id="visualizacoes"></span></p>
+        <p><strong>Descrição Alternativa:</strong> <span id="descricaoAlternativa"></span></p>
+    </div>
+    <a href="index.html"><button>Voltar</button></a>
+    <button onclick="buscarImagemAleatoria()">Nova Imagem</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
